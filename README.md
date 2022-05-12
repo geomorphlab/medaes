@@ -1,2 +1,2 @@
-# medaes.github.io
+# medaes
 Monash Eae Data Analysis in Earth Sciences
