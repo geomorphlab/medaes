@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Day 1
+title: day1
 permalink: /day1
 ---
 
