@@ -1,7 +1,7 @@
 ---
 layout: page
 title: test
-permalink: test
+permalink: /test
 ---
 
 ## Welcome to GitHub Pages
