@@ -21,7 +21,7 @@ Python is the coding language we'll use in this intensive; some computers come w
 ### pip
 Pip is software that allows you to install Python packages easily; we need to install it.
 
-https://pip.pypa.io/en/stable/installation/
+[https://pip.pypa.io/en/stable/installation/](https://pip.pypa.io/en/stable/installation/)
 
 ### Jupyter Labs
 Jupyter Labs is a console we use to code; we need to install it.
