@@ -16,7 +16,7 @@ The aim is to save students all the time I spent learning how to make nice figur
 
 ### Assessment
 
-There is ungraded homework each day which you will get feedback on the next day in-person. For students taking this course for credit, there is one assessment. That assessment is producing an extended abstract (template [here](./assets/modified_lpsc_extended_abstract_template.docx)) with figures produced using the methods developed in the intensive. This abstract will be accompanied by a GitHub repository, minted with a DOI using Zenodo, that includes code (and data if storage allows) to produce the abstract figures.
+There is ungraded homework each day which students get feedback on the next day in-person. For students taking this course for credit, there is one assessment. That assessment is producing an extended abstract (template [here](./assets/modified_lpsc_extended_abstract_template.docx)) with figures produced using the methods developed in the intensive. This abstract will be accompanied by a GitHub repository, minted with a DOI using Zenodo, that includes code (and data if storage allows) to produce the abstract figures.
 
 ## Course materials
 
