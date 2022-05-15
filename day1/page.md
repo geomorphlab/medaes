@@ -52,4 +52,4 @@ pip install matplotlib
 
 ## First notebook
 
-See the first notebook [here](https://pages.github.com/).
+See the first notebook [here](https://github.com/geomorphlab/medaes/blob/gh-pages/day1/day1.ipynb).
