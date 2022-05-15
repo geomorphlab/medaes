@@ -1,8 +1,8 @@
-```
+---
 layout: page
-title: "Day 1"
-permalink: /day1/
-```
+title: Day 1
+permalink: day1
+---
 
 # Day 1
 
