@@ -15,7 +15,7 @@ Today we will do introductions, get our software environment set up, and make ou
 ### Python
 Python is the coding language we'll use in this intensive; some computers come with Python on them, others don't.
 
-https://www.python.org/downloads/
+[https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 ### pip
 Pip is software that allows you to install Python packages easily; we need to install it.
@@ -25,7 +25,7 @@ https://pip.pypa.io/en/stable/installation/
 ### Jupyter Labs
 Jupyter Labs is a console we use to code; we need to install it.
 
-https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html
+[https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
 ```
 pip install jupyterlab
 ```
@@ -33,7 +33,7 @@ pip install jupyterlab
 ### NumPy
 NumPy is a Python package that lets us do maths; we need to install it.
 
-https://numpy.org/install/
+[https://numpy.org/install/](https://numpy.org/install/)
 ```
 pip install numpy
 ```
@@ -41,7 +41,7 @@ pip install numpy
 ### pandas
 pandas is a Python package that lets us work with tabulated data; we need to install it.
 
-https://pandas.pydata.org/docs/getting_started/install.html
+[https://pandas.pydata.org/docs/getting_started/install.html](https://pandas.pydata.org/docs/getting_started/install.html)
 ```
 pip install pandas
 ```
@@ -49,7 +49,7 @@ pip install pandas
 ### matplotlib
 matplotlib is a Python package that lets us plot data; we need to install it.
 
-https://matplotlib.org/stable/users/installing/index.html
+[https://matplotlib.org/stable/users/installing/index.html](https://matplotlib.org/stable/users/installing/index.html)
 ```
 pip install matplotlib
 ```
