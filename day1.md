@@ -4,11 +4,12 @@ layout: default
 
 # Day 1
 
-## Overview
-The course description is:
-> Techniques for handling, analysing and presenting data in Earth Sciences using Python. Students will use real-world data provided to them or from their own research. The analysis component will include standard techniques such as correlations, power spectra, regridding and curve-fitting.
-
 Today we will do introductions, get our software environment set up, and make our first plot!
+
+## Overview
+The course description is,
+> Techniques for handling, analysing and presenting data in Earth Sciences using Python. Students will use real-world data provided to them or from their own research. The analysis component will include standard techniques such as correlations, power spectra, regridding and curve-fitting.
+The plan is to have you feel confident to make publication-ready figures in Python with your own data. 
 
 ## Installations
 
