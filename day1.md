@@ -62,3 +62,5 @@ See the first notebook [here](https://github.com/geomorphlab/medaes/blob/gh-page
 ## Homework
 
 Make an equivalent notebook to the one above where you ingest your own spreadsheet and plot some data from it.
+
+To open Jupyter Labs just type `jupyter-lab` into your terminal. It will open up a console in a tab on your browser.
