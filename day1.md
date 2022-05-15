@@ -1,7 +1,5 @@
 ---
-layout: page
-title: day1
-permalink: /day1
+layout: default
 ---
 
 # Day 1
