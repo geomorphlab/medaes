@@ -2,7 +2,13 @@
 
 ## Description
 
-Techniques for handling, analysing and presenting data in Earth Sciences using Python. Students will use real-world data provided to them or from their own research. The analysis component will include standard techniques such as correlations, power spectra, regridding and curve-fitting.
+This is the site accompanying the 2-week intensive for research students in the Monash University School of Earth, Atmosphere and Environment. The course description is:
+ 
+> Techniques for handling, analysing and presenting data in Earth Sciences using Python. Students will use real-world data provided to them or from their own research. The analysis component will include standard techniques such as correlations, power spectra, regridding and curve-fitting.
+
+The practical goal of the intensive is to have students gain confidence in handling and plotting their own data in Python. The in-person aspect to this intensive is 9 days of 2-hour workshops where we go through the tutorials and solve any bugs collaboratively. 
+
+The aim is to save students all the time I spent learning how to make nice figures so they can use it thinking about science instead! Students will leave with the ability to reproducibly generate figures like this: 
 
 ![alt text](example-fig.png "example figure")
 
