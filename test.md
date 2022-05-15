@@ -4,40 +4,58 @@ title: test
 permalink: /test
 ---
 
-## Welcome to GitHub Pages
+# Day 1
 
-You can use the [editor on GitHub](https://github.com/geomorphlab/medaes.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Overview
+The course description is:
+> Techniques for handling, analysing and presenting data in Earth Sciences using Python. Students will use real-world data provided to them or from their own research. The analysis component will include standard techniques such as correlations, power spectra, regridding and curve-fitting.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Today we will do introductions, get our software environment set up, and make our first plot!
 
-### Markdown
+## Installations
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Python
+Python is the coding language we'll use in this intensive; some computers come with Python on them, others don't.
 
-```markdown
-Syntax highlighted code block
+https://www.python.org/downloads/
 
-# Header 1
-## Header 2
-### Header 3
+### pip
+Pip is software that allows you to install Python packages easily; we need to install it.
 
-- Bulleted
-- List
+https://pip.pypa.io/en/stable/installation/
 
-1. Numbered
-2. List
+### Jupyter Labs
+Jupyter Labs is a console we use to code; we need to install it.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html
+```
+pip install jupyterlab
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### NumPy
+NumPy is a Python package that lets us do maths; we need to install it.
 
-### Jekyll Themes
+https://numpy.org/install/
+```
+pip install numpy
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/geomorphlab/medaes.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### pandas
+pandas is a Python package that lets us work with tabulated data; we need to install it.
 
-### Support or Contact
+https://pandas.pydata.org/docs/getting_started/install.html
+```
+pip install pandas
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### matplotlib
+matplotlib is a Python package that lets us plot data; we need to install it.
+
+https://matplotlib.org/stable/users/installing/index.html
+```
+pip install matplotlib
+```
+
+## First notebook
+
+See the first notebook [here](https://github.com/geomorphlab/medaes/blob/gh-pages/day1/day1.ipynb).
