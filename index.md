@@ -8,7 +8,7 @@ This is the site accompanying the 2-week intensive for research students in the 
 
 The practical goal of the intensive is to have students gain confidence in handling and plotting their own data in Python. The in-person aspect to this intensive is 9 days of 2-hour workshops where we go through the tutorials and solve any bugs collaboratively. 
 
-The aim is to save students all the time I spent learning how to make nice figures so they can use it to do actual science instead! Students will leave with the ability to reproducibly generate figures like this: 
+The aim is to save students all the time I spent learning how to make nice figures so they can use it to do actual science instead! Students will leave with the ability to reproducibly generate figures like this entirely in Python: 
 
 ![alt text](example-fig.png "example figure")
 
