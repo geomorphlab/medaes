@@ -26,10 +26,14 @@ There is ungraded homework each day which students get feedback on the next day 
 - First notebook
 
 ### [Day 2](./day2.html)
+- Function arguments
+- Googling queries
 - Importing various data types
 
 ### [Day 3](./day3.html)
 - Linear regression
+- Power law regression
+- Statistics
 
 ### [Day 4](./day4.html)
 - Power spectra
