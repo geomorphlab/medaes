@@ -26,7 +26,7 @@ Examining the distribution of the residuals between actual data and your predict
 
 ## Other statistics
 
-There are MANY statistical tests, ways to fit data, and many ways to do each of them in Python; we can't cover everything and just scratched the surface of a handful of things. Other useful packages for doing all sorts of statistics are [`scipy.stats`](https://docs.scipy.org/doc/scipy/reference/stats.html) and [`sklearn`](https://scikit-learn.org/stable/). Please let your specific research areas guide you in figuring out which ones to use; hopefully this course gives you the confidence to explore things we haven't covered.
+There are MANY statistical tests, ways to fit data, and many ways to do each of them in Python; we can't cover everything and just scratched the surface of a handful of things. Other useful packages for doing all sorts of statistics are `scipy.stats` (link [here](https://docs.scipy.org/doc/scipy/reference/stats.html)) and `sklearn` (link [here](https://scikit-learn.org/stable/)). Please let your specific research areas guide you in figuring out which ones to use; hopefully this course gives you the confidence to explore things we haven't covered.
 
 ## Third notebook
 
