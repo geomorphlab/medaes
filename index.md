@@ -37,6 +37,7 @@ There is ungraded homework each day which students get feedback on the next day 
 
 ### [Day 4](./day4.html)
 - Power spectra
+- Pattern geometry
 
 ### [Day 5](./day5.html)
 - Regridding
