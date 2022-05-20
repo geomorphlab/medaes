@@ -27,7 +27,6 @@ There is ungraded homework each day which students get feedback on the next day 
 
 ### [Day 2](./day2.html)
 - Function arguments
-- Googling queries
 - Importing various data types
 
 ### [Day 3](./day3.html)
@@ -40,7 +39,8 @@ There is ungraded homework each day which students get feedback on the next day 
 - Pattern geometry
 
 ### [Day 5](./day5.html)
-- Regridding
+- Regridding 1- and 2-D data
+- Regridding irregular 2-D data
 
 ### [Day 6](./day6.html)
 - Curve fitting
