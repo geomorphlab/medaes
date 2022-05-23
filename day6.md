@@ -8,7 +8,7 @@ Today we will look at how to fit functions that cannot be cast as polynomials to
 
 ## Example lightning presentation
 
-Before covering today's material, I will give a lightning presentation example for you. I have put my slides in today's .zip file if you want to review them while creating your own presentations.
+Before covering today's material, I will give a lightning presentation example for you. If you want a copy of my slides to review them while creating your own presentations, please email me.
 
 ## Gradient descent
 
