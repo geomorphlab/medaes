@@ -43,7 +43,9 @@ There is ungraded homework each day which students get feedback on the next day 
 - Regridding irregular 2-D data
 
 ### [Day 6](./day6.html)
-- Curve fitting
+- Example lightning presentation
+- Gradient descent
+- Sensitivity to initial conditions
 
 ### [Day 7](./day7.html)
 - Publication figures
