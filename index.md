@@ -48,7 +48,8 @@ There is ungraded homework each day which students get feedback on the next day 
 - Sensitivity to initial conditions
 
 ### [Day 7](./day7.html)
-- Publication figures
+- Elements of publication figures
+- Implementation of publication figures
 
 ### [Day 8](./day8.html)
 - Github repository DOIs
