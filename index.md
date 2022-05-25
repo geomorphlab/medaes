@@ -20,41 +20,42 @@ There is ungraded homework each day which students get feedback on the next day 
 
 ## Course materials
 
-### [Day 1](./day1.html)
+### [Day 1 - Introduction](./day1.html)
 - Overview
 - Installations
 - First notebook
 
-### [Day 2](./day2.html)
+### [Day 2 - Loading data](./day2.html)
 - Function arguments
 - Importing various data types
 
-### [Day 3](./day3.html)
-- Linear regression
-- Power law regression
+### [Day 3 - Regression](./day3.html)
+- Linear
+- Power law
 - Statistics
 
-### [Day 4](./day4.html)
+### [Day 4 - FFTs](./day4.html)
 - Power spectra
 - Pattern geometry
 
-### [Day 5](./day5.html)
-- Regridding 1- and 2-D data
-- Regridding irregular 2-D data
+### [Day 5 - Regridding](./day5.html)
+- 1- and 2-D data
+- Irregular 2-D data
 
-### [Day 6](./day6.html)
+### [Day 6 - Optimization](./day6.html)
 - Example lightning presentation
 - Gradient descent
 - Sensitivity to initial conditions
 
-### [Day 7](./day7.html)
-- Elements of publication figures
-- Implementation of publication figures
+### [Day 7 - Publication figures](./day7.html)
+- Elements
+- Implementation
 
-### [Day 8](./day8.html)
-- Github repository DOIs
+### [Day 8 - DOIs for code & data](./day8.html)
+- Github
+- Zenodo
 
-### [Day 9](./day9.html)
+### [Day 9 - Wrap-up](./day9.html)
 - Lightning presentations
 
 ## Contact
