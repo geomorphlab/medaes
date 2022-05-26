@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Day 7
+# Day 8
 
 Today we will look at how to make a DOI-minted code and data repository!
 
