@@ -55,7 +55,7 @@ There is ungraded homework each day which students get feedback on the next day 
 - Github
 - Zenodo
 
-### [Day 9 - Wrap-up](./day9.html)
+### [Day 9 - Wrap-up](https://geomorphlab.github.io/medaes/)
 - Lightning presentations
 
 ## Contact
