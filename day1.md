@@ -59,7 +59,7 @@ pip install matplotlib
 
 To open Jupyter Labs just type `jupyter-lab` into your terminal. It will open up a console in a tab on your browser.
 
-See the first notebook example online [here](https://github.com/geomorphlab/medaes/blob/gh-pages/day1/day1.ipynb). Download it directly [here](./day1/day1.ipynb).
+See the first notebook example online [here](https://github.com/geomorphlab/medaes/blob/gh-pages/day1/day1.ipynb). Download it directly [here](./day1/day1.zip).
 
 ## Homework
 
