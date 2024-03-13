@@ -8,7 +8,7 @@ This is the site accompanying the 2-week intensive for research students in the 
 
 ### Aims
 
-The practical goal of the intensive is to have students gain confidence in handling and plotting their own data in Python. The in-person aspect to this intensive is 9 days of 2-hour workshops where we go through the tutorials and solve any bugs collaboratively. 
+The practical goal of the intensive is to have students gain confidence in handling and plotting their own data in Python. The in-person aspect to this intensive is 10 days of 2-hour workshops where we go through the tutorials and solve any bugs collaboratively. 
 
 The aim is to save students all the time I spent learning how to make nice figures so they can use it to "do science" instead! Students will leave with the ability to reproducibly generate figures like this entirely in Python: 
 
@@ -47,15 +47,20 @@ There is ungraded homework each day which students get feedback on the next day 
 - Gradient descent
 - Sensitivity to initial conditions
 
-### [Day 7 - Publication figures](./day7.html)
+### [Day 7 - Geochemical plotting](./day7.html)
+- Sample spreadsheets
+- Parametric plots
+- Fits for ages
+
+### [Day 8 - Publication figures](./day8.html)
 - Elements
 - Implementation
 
-### [Day 8 - DOIs for code & data](./day8.html)
+### [Day 9 - DOIs for code & data](./day9.html)
 - Github
 - Zenodo
 
-### [Day 9 - Wrap-up](https://geomorphlab.github.io/medaes/)
+### [Day 10 - Wrap-up](https://geomorphlab.github.io/medaes/)
 - Lightning presentations
 
 ## Contact

@@ -4,31 +4,24 @@ layout: default
 
 # Day 8
 
-Today we will look at how to make a DOI-minted code and data repository!
+Today we will look at how to make publication-ready figures!
 
-## GitHub
+## Elements
 
-[GitHub](https://github.com/) is an incredibly useful website that allows people who write code and develop software to share what they have done and work on it collaboratively. Projects are held in 'repositories' and can be public or private. A lot of the software we use in our day-to-day lives, including the Python packages we've used all workshop and even this workshop website, are created using GitHub! GitHub uses software called [Git](https://en.wikipedia.org/wiki/Git) to keep tabs on what is in directories and files, and if those things change.
+The clarity of your writing can help readers understand your science better. The same goes for figures. Common advice is that you should be able to understand the point of an article by just looking at the figures, or just reading the text; you shouldn't need both. Making aesthetically pleasing figures probably makes people want to read your paper a little more too, and I imagine it also makes editors more likely to send your manuscript out for review. With a little effort, you can write code to produce figures that convey your science well, look good, and adhere to the formatting requirements of the journal you're submitting to.
 
-Today we will tell Git to keep tabs on a directory on our local computer where our project is. We will then create a GitHub repository for it, so anyone can see the most recent upload we made. Once this is done, we can create a 'version' (i.e., what the repository looked like at a moment in time) of the repository. Then finally we can make a DOI for the version with Zenodo.
+Journals often have formatting requirements for; the font and its size, the lettering for the panels, the figure's file type, dimensions and resolution. We can write code to produce figures such that they adhere to all these requirements. Today we will use the [Nature formatting requirements](https://www.nature.com/documents/Final_guide_to_authors.pdf) as an example.
 
-Before we start this process, we need to organise our project directory. Make sure all your code and code output is in one directory that you can navigate to via terminal. If your data contains any files over 50 MB, make sure to store your data in a child directory of the project directory, and all the code in a seperate child directory. Ideally you wouldn't have to do this, but GitHub has a 50 MB limit on any given file's size.
+## Implementation
 
-Next we need to install Git on our computer if we don't have it already. [Here](https://github.com/git-guides/install-git) is a tutorial for installing Git on various operating systems. Then we need to create a GitHub account if we don't have one already. You can do that [here](https://github.com/join). 
+We will use the `matplotlib` package we've been using this whole workshop to make an example publication-ready figure, but this time we will get a lot more precise with default arguments such that the end result isn't just a draft for our respective research group's eyes only. The code required to make a figure like this ends up being a lot longer, but once we've done it once, we can copy and adapt it with very little additional effort.
 
-After that, we can follow [this tutorial](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git) to get our local directory uploaded to GitHub as a repository. 
+The first thing we do is sketch out how we want the figure to look on a piece of paper; this is our vision. Next we code it up. We have to think about where the elements of the figures sit with respect to the entire figure, and where elements of a given panel sit with respect to that panel. We want to declare variables for these locations in either reference frame (figure-wide or panel-specific) if they are in any way related to one another. This ensures that any alignment between elements is enforced.
 
-## Zenodo
+## Seventh notebook
 
-[Zenodo](https://zenodo.org/) is a file sharing website for research. Since Zenodo has the proper infrastructure and policies in place, they are able to issue Digital Object Identifiers (DOIs) to data and code stored on and accessed through the website. 
-
-[DOIs](https://www.doi.org/) are permanent addresses for digital assets. They are the widely-adopted way we keep track of all published research articles, and since nowadays none of us read publications from a journal's printed issue, they are much more powerful way of referencing published research. Giving your code and data a DOI, in addition to your articles, is one way for other researchers to know exactly how you did your science and it makes them able to cite it if required. In the last few years a lot of journals in Earth Sciences have started requiring that code and data accompanying an article are not only publicly available, but also have a DOI.
-
-We can use Zenodo without GitHub, but since GitHub allows us to easily upload and track changes in our project directory, and Zenodo allows us to give our code a DOI, they work very well together. 
-
-Now we have our GitHub repository up and running, we can follow [this guide](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content) to give it a DOI via Zenodo.
-
+See the eighth notebook example online [here](https://github.com/geomorphlab/medaes/blob/gh-pages/day8/day8.ipynb). Download the directory with the notebook and the example file directly [here](./day8/day8.zip).
 
 ## Homework
 
-Once your project is finalised, create its own GitHub repository, and a DOI for a version of it using Zenodo. Go ahead and work on your own lightning presentations and the extended abstract.
+Make an equivalent notebook to the one above where you ingest your own data and plot it up nicely. Go ahead and work on your own lightning presentations and the extended abstract.

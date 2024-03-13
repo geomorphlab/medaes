@@ -4,19 +4,24 @@ layout: default
 
 # Day 7
 
-Today we will look at how to make publication-ready figures!
+Today we will look at how to plot up geochemical data!
 
-## Elements
+## Sample spreadsheets
 
-The clarity of your writing can help readers understand your science better. The same goes for figures. Common advice is that you should be able to understand the point of an article by just looking at the figures, or just reading the text; you shouldn't need both. Making aesthetically pleasing figures probably makes people want to read your paper a little more too, and I imagine it also makes editors more likely to send your manuscript out for review. With a little effort, you can write code to produce figures that convey your science well, look good, and adhere to the formatting requirements of the journal you're submitting to.
+Often we will recieve data from papers, colleagues, or repositories that aren't in the format that make they most sense for our analysis. For spreadsheets, for example, there is a balance in efficiency between 1) modifying them directly in Excel or a similar piece of GUI software so they are in the format that provides the simplest ingestion by `pandas` using `read_csv` or `read_excel` and 2) passing complex arguments to those `pandas` functions so that the unmodified spreadsheet can be ingested. This balance is about saving time: sometimes you may recieve hundreds of very similar spreadsheets and the latter is best, other times it makes most sense to just do the former if it's just one spreadsheet.
+Your sense for which saves you time so you can focus on the science will come with experience.
 
-Journals often have formatting requirements for; the font and its size, the lettering for the panels, the figure's file type, dimensions and resolution. We can write code to produce figures such that they adhere to all these requirements. Today we will use the [Nature formatting requirements](https://www.nature.com/documents/Final_guide_to_authors.pdf) as an example.
+Compare the spreadsheets in this day's folder from our colleagues (Lucas and Erick have kindly passed on some data) in their unmodified and modified versions to see what I mean.
 
-## Implementation
+## Parametric plots
 
-We will use the `matplotlib` package we've been using this whole workshop to make an example publication-ready figure, but this time we will get a lot more precise with default arguments such that the end result isn't just a draft for our respective research group's eyes only. The code required to make a figure like this ends up being a lot longer, but once we've done it once, we can copy and adapt it with very little additional effort.
+Often in geochemical analysis we collect the abundances of a list of different elements or isotopes in a set of samples. The relationships between the abundances tell us important information such as the history of boundary conditions that the samples have experienced.
 
-The first thing we do is sketch out how we want the figure to look on a piece of paper; this is our vision. Next we code it up. We have to think about where the elements of the figures sit with respect to the entire figure, and where elements of a given panel sit with respect to that panel. We want to declare variables for these locations in either reference frame (figure-wide or panel-specific) if they are in any way related to one another. This ensures that any alignment between elements is enforced.
+When doing a first look through the samples, it is often instructive to make a grid of scatter plots, where the points are the samples, and the axes are the elements or isotopes. We have written a function `parascatter` which makes this directly for a defined subset of the list of elements or isotopes. Please take a look at that function and think about how to adapt it for your own use.
+
+## Fits for ages
+
+Another style of analysis is to use radioactive decay within a material to infer its age. We make this inference using the relationship between ratios of isotopes which vary over time as certain isotopes decay radioactively into another, if the decay rate is known. Today we study the Rubidium Strontium system, please take a look at the notebook for the calculation.
 
 ## Seventh notebook
 
